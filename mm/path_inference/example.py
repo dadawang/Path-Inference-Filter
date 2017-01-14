@@ -26,8 +26,9 @@ This code defines a simple maze as a road network, simulates the crossing of
 '''
 import random
 import math
-from mm.path_inference.example_utils import \
-  create_trajectory_for_lattice_network, LatticePathBuilder
+# from mm.path_inference.example_utils import \
+  # create_trajectory_for_lattice_network, LatticePathBuilder
+from example_utils import create_trajectory_for_lattice_network, LatticePathBuilder
 
 """ The road network is a an NxN lattice. Each of the nodes of the lattice is
 defined by its (x,y) coordinate ((0,0) at the bottom left). Each link of the 

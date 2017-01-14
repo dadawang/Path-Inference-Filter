@@ -20,8 +20,10 @@ Created on Jan 26, 2012
 # pylint: disable=W0105
 import random
 random.seed = 2 # Fixing the seed to reproduce results.
-from mm.path_inference.structures import State, LatLng, StateCollection
-from mm.path_inference.path_builder import PathBuilder
+# from mm.path_inference.structures import State, LatLng, StateCollection
+# from mm.path_inference.path_builder import PathBuilder
+from structures import State, LatLng, StateCollection
+from path_builder import PathBuilder
 
 """ We sample some observation links from the trajectory.
 """
